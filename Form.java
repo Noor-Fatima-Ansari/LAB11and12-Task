@@ -23,7 +23,7 @@ public class Form {
 
     Form()
     {
-        frame=new JFrame("Student Registration");
+        frame=new JFrame("Student Registration Form");
         panel=new JPanel();
         name=new JLabel("Name: ");
         roll=new JLabel("Roll Number: ");
@@ -177,7 +177,7 @@ public class Form {
             frame.remove(panel);
             Panel panel1 = new Panel();
             panel1.setLayout(null);
-            panel1.setBackground(Color.yellow);
+            panel1.setBackground(Color.CYAN);
             panel1.setSize(700, 700);
             JLabel l1, l2, l3, l4, l5, l6, l7, l8;
             l1 = new JLabel("Name : " + name);
